@@ -68,7 +68,11 @@ img {
 
 
 
-/****Heads****/
+/*
+
+   --- HEADINGS -----------------------------------------------------------
+
+*/
 
 
 h1, h2, h3, h4, h5, h6 {
@@ -134,7 +138,10 @@ h3:after {
     margin-bottom: 23px;
 }
 
-/****Lists****/
+/*
+   --- LISTS ------------------------------------------------------------
+
+*/
 
 
 ul {
@@ -208,7 +215,11 @@ ul {
     overflow: hidden;
 }
 
-/****Links****/
+/*
+
+   --- LINKS --------------------------------------------------------------
+
+*/
 
 
 a {
@@ -255,7 +266,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#586f7cs', en
 }
 
 
-/****classes****/
+/*
+
+   --- GENERAL CLASSES ---------------------------------------------------
+
+*/
 
 .mb__0 {
     margin-bottom: 0px !important;
@@ -333,7 +348,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#586f7cs', en
 }
 
 
-/*header*/
+/*
+
+   --- HEADER SECTION ------------------------------------------------------
+
+*/
 
 header {
     display: block;
@@ -366,7 +385,11 @@ header h1 a img {
 .main {
     background-color: #586f7c;
 }
-/**Content**/
+/*
+
+   --- CONTENT SECTION -------------------------------------------------------
+
+*/
 
 .content {
     padding-bottom: 63px;
@@ -388,7 +411,12 @@ header h1 a img {
     padding-top: 60px;
 }
 
-/*Blocks*/
+/*
+
+   --- BLOCK SECTION --------------------------------------------------------
+
+*/
+
 .block1 {
     background-color: #B8DBD9;
     color: #586f7c;
@@ -472,7 +500,11 @@ header h1 a img {
     margin-top: 25px;
 }
 
-/**Gallery**/
+/*
+
+   --- GALLERY SECTION -------------------------------------------------------
+
+*/
 
 .gal_item {
     display: block;
@@ -540,28 +572,11 @@ header h1 a img {
     padding-left: 15px;
 }
 
-/**Bot block**/
+/*
 
-.bottom_block {
-    background-color: #ddd;
-    color: #000;
-    font-size: 20px;
-    line-height: 35px;
-    padding: 15px 0 16px;
-}
+   --- MAP SECTION -----------------------------------------------------------
 
-.bottom_block .fa {
-    font-size: 24px;
-    margin-right: 30px;
-    margin-top: 5px;
-}
-
-.bot_title {
-    margin-left: 100px;
-    margin-top: 2px;
-}
-
-/**Map**/
+*/
 
 .color1 {
     color: #2F4550;
@@ -628,7 +643,11 @@ header h1 a img {
     min-width: 0;
 }
 
-/**Footer**/
+/*
+
+   --- FOOTER SECTION --------------------------------------------------------
+
+*/
 
 footer {
     display: block;
@@ -706,7 +725,11 @@ footer {
     background-position: right 0;
 }
 
-/*==================================RESPONSIVE LAYOUTS===============================================*/
+/*
+
+   --- RESPONSIVE LAYOUTS ----------------------------------------------------
+
+*/
 @media only screen and (max-width: 1199px) {
 
     .extra_wrapper {

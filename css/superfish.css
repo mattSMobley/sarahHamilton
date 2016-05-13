@@ -80,68 +80,6 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 
-
-/*.sf-menu>li>a.sf-with-ul:after {
-	position: absolute;
-	content: '';
-	left: 50%;
-	margin-left: -3px;
-	width: 5px;
-	background: url(../images/arrows.png) 0 bottom no-repeat;
-	height: 4px;
-	bottom: 15px;
-	pointer-events: none;
-	z-index: 999;
-	display: block;
-}
-
-.sf-menu>li.current>a.sf-with-ul:after,
-.sf-menu>li.sfHover>a.sf-with-ul:after {
-	background-position: 0 0;
-}
-
-.sf-menu>li>a.sf-with-ul:after {
-	position: absolute;
-	content: '';
-	left: 50%;
-	margin-left: -4px;
-	height: 4px;
-	bottom: 14px;
-	pointer-events: none;
-	z-index: 999;
-	display: block;
-	width: 0px;
-	height: 0px;
-	border-style: solid;
-	border-width: 4px 4px 0 4px;
-	border-color: #1e1e1e transparent transparent transparent;
-}
-
-.sf-menu>li.current>a.sf-with-ul:after ,
-.sf-menu>li.sfHover>a.sf-with-ul:after  {
-	border-top-color: #586f7c;
-}
-
-
-
-.sf-menu>li>ul>li>a.sf-with-ul:after {
-	content: '';
-    font-family: 'FontAwesome';
-	position: absolute;
-	width: 5px;
-	font-size: 13px;
-	line-height: 13px;
-	font-weight: normal;
-	right: 15px;
-	color: #474243;
-	bottom: 5px;
-	pointer-events: none;
-	z-index: 999;
-}
-
-*/
-
-
 /*================================>> 2 Level <<========================================*/
 .sf-menu li ul,.sf-menu li.sfHover>ul{
 	left: 0;
@@ -169,18 +107,12 @@ nav{ position:relative;padding: 0px 0 0 0;}
 .sf-menu li ul li+li {
 }
 
-
-
 .sf-menu li ul li a{
 	position: static;
 	z-index: 999;
 	color: #474243;
 	font-weight: normal;
 }
-
-
-
-
 
 .sf-menu li li a:hover,
 .sf-menu li.sfHover li.sfHover>a {
@@ -241,9 +173,6 @@ nav{ position:relative;padding: 0px 0 0 0;}
 
 
 	}
-
-
-
 
   header nav ul {
   	border: none;
