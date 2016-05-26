@@ -138,6 +138,13 @@ h3:after {
     margin-bottom: 23px;
 }
 
+.logo {
+  font-family: 'Pinyon Script', cursive;
+  font-size: 3em;
+  padding-top: .5em;
+  color: #2F4550;
+}
+
 /*
    --- LISTS ------------------------------------------------------------
 
@@ -777,6 +784,13 @@ footer {
  height: auto !important;
 }
 
+a {
+  font-size: .8em;
+}
+
+.logo {
+  padding-top: .5em;
+}
 
 .map figure {
 	margin-bottom: 15px;
@@ -810,6 +824,10 @@ h3:after {
 #newsletter .btn.bt__2 {
     margin-left: 0;
     margin-top: 20px;
+}
+
+.logo {
+  line-height: 1;
 }
 
 .bot_title {
