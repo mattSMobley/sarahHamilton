@@ -746,7 +746,22 @@ footer {
     #newsletter {
         padding-right: 0;
     }
-
+    .title {
+      top: 72%;
+      left: 80%;
+    }
+    .title2 {
+      top: 72%;
+      left: 78%;
+    }
+    .title3 {
+      top: 72%;
+      left: 78%;
+    }
+    .camera_wrap img {
+      max-width: 10000px;
+      max-height: 450px;
+    }
 }
 
 @media only screen and (max-width: 979px) {
@@ -754,6 +769,22 @@ footer {
 #newsletter input {
     padding-left: 20px;
     padding-right: 20px;
+}
+.title {
+  top: 72%;
+  left: 80%;
+}
+.title2 {
+  top: 72%;
+  left: 78%;
+}
+.title3 {
+  top: 72%;
+  left: 78%;
+}
+.camera_wrap img {
+  max-width: 10000px;
+  max-height: 450px;
 }
 
 .bottom_block .fa {

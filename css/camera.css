@@ -19,6 +19,7 @@
 }
 .camera_wrap img {
   max-width: 10000px;
+  max-height: 550px;
 }
 .camera_fakehover {
   height: 100%;
@@ -230,48 +231,64 @@
   height: 1px;
   margin: -1px 0 25px;
   position: relative;
-  text-align: right;
+  text-align: left;
 }
-.caption {
-  position: absolute;
+/*.caption {
+  position: relative;
   text-align: center;
-  /*width: 200px;*/
-  /*height: 200px;*/
-  left: 20%;
-  margin-left: -13.5vw;
+  width: 250px;
+  height: 100px;
+  left: 50%;
   top: 100%;
-  margin-top: -180px;
-  /*color: #434242;*/
-  /*background-color: rgba(221, 221, 221, 0.6);*/
-  padding: 74px 90px;
-  border-radius: 500px;
+  color: #434242;
+  background-color: rgba(0, 0, 0, 0.6);
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -o-box-sizing: border-box;
   box-sizing: border-box;
-}
+}*/
 .title {
-  font-size: 48px;
+  font-size: 3em;
   font-family: 'Pinyon Script', cursive;
-  margin-bottom: 36px;
-  margin-left: -50px;
-  padding-bottom: 22px;
   color: #F4F4F9;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  position: absolute;
+  left: 85%;
+  top: 72%;
+  text-align: center;
+  padding: .5em;
+  line-height: 1em;
 }
 .subtitle {
-  font-size: 20px;
+  font-size: .5em;
   font-family: 'BenchNine', 'sans-serif';
-  padding-top: 1em;
+  padding-top: .25em;
   font-weight: 200;
   font-style: underline;
 }
 .title2 {
-  font-size: 48px;
+  font-size: 3em;
   font-family: 'Pinyon Script', cursive;
-  margin-bottom: 36px;
-  margin-left: -50px;
-  padding-bottom: 22px;
   color: #000000;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  position: absolute;
+  left: 82%;
+  top: 72%;
+  text-align: center;
+  padding: .5em;
+  line-height: 1em;
+}
+.title3 {
+  font-size: 3em;
+  font-family: 'Pinyon Script', cursive;
+  color: #F4F4F9;
+  /*background-color: rgba(0, 0, 0, 0.6);*/
+  position: absolute;
+  left: 82%;
+  top: 75%;
+  text-align: center;
+  padding: .5em;
+  line-height: 1em;
 }
 /*.caption p {}*/
 /*.caption a {
