@@ -248,8 +248,8 @@
   box-sizing: border-box;
 }*/
 .title {
-  font-size: 3em;
-  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
   color: #F4F4F9;
   /*background-color: rgba(0, 0, 0, 0.6);*/
   position: absolute;
@@ -267,9 +267,9 @@
   font-style: underline;
 }
 .title2 {
-  font-size: 3em;
-  font-family: 'Pinyon Script', cursive;
-  color: #000000;
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
+  color: #2F4550;
   /*background-color: rgba(0, 0, 0, 0.6);*/
   position: absolute;
   left: 82%;
@@ -279,8 +279,8 @@
   line-height: 1em;
 }
 .title3 {
-  font-size: 3em;
-  font-family: 'Pinyon Script', cursive;
+  font-size: 2.5em;
+  font-family: 'Playfair Display', serif;
   color: #F4F4F9;
   /*background-color: rgba(0, 0, 0, 0.6);*/
   position: absolute;

@@ -76,7 +76,7 @@ img {
 
 
 h1, h2, h3, h4, h5, h6 {
-    color: #2F4550;
+    color: #58657C;
     font-weight: bold;
 
     text-align: center;
@@ -139,10 +139,16 @@ h3:after {
 }
 
 .logo {
-  font-family: 'Pinyon Script', cursive;
-  font-size: 3em;
-  padding-top: .5em;
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5em;
+  padding-top: .45em;
   color: #2F4550;
+}
+
+.contactInfo {
+  font-size: 1.8em;
+  line-height: 1.35;
+
 }
 
 /*
@@ -243,7 +249,7 @@ a:hover {
 }
 
 .btn {
-    color: #2f4550;
+    color: #58657C;
     display: inline-block;
     border-radius: 3px;
 background: rgb(255,255,255); /* Old browsers */
@@ -390,7 +396,7 @@ header h1 a img {
 }
 
 .main {
-    background-color: #586f7c;
+    background-color: #F4F4F9;
 }
 /*
 
@@ -586,7 +592,7 @@ header h1 a img {
 */
 
 .color1 {
-    color: #2F4550;
+    color: #58657C;
 }
 
 .color1 a:hover, a.color1:hover {
@@ -692,7 +698,7 @@ footer {
 }
 
 .footer_socials .fa:hover {
-    background-color: #2F4550;
+    background-color: #58657C;
 }
 
 .footer_socials .fa.fa-pinterest {
