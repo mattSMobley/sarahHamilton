@@ -666,6 +666,7 @@ footer {
     display: block;
     color: #e2e2e2;
     padding: 33px 0 15px;
+    background-color: #2F4550;
 }
 
 .copy {
@@ -687,7 +688,7 @@ footer {
 .footer_socials .fa {
     border-radius: 500px;
     background-color: #ddd;
-    color: #586f7c;
+    color: #2f4550;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -698,7 +699,7 @@ footer {
 }
 
 .footer_socials .fa:hover {
-    background-color: #58657C;
+    background-color: #fe7676;
 }
 
 .footer_socials .fa.fa-pinterest {
