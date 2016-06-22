@@ -1,271 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Sarah Hamilton Photography</title>
-		<meta charset="utf-8">
-		<meta name="format-detection" content="telephone=no">
-		<link rel="icon" href="images/favicon.ico">
-		<link rel="shortcut icon" href="images/camera.ico">
-		<link rel="stylesheet" href="css/stuck.css">
-		<link rel="stylesheet" href="css/owl.carousel.css">
-		<link rel="stylesheet" href="css/form.css">
-		<link rel="stylesheet" href="css/touchTouch.css">
-		<link rel="stylesheet" href="css/camera.css">
-		<link rel="stylesheet" href="css/style.css">
-		<link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
-		<script src="js/jquery.js"></script>
-		<script src="js/jquery-migrate-1.1.1.js"></script>
-		<script src="js/script.js"></script>
-		<script src="js/superfish.js"></script>
-		<script src="js/jquery.equalheights.js"></script>
-		<script src="js/jquery.mobilemenu.js"></script>
-		<script src="js/jquery.easing.1.3.js"></script>
-		<script src="js/tmStickUp.js"></script>
-		<script src="js/jquery.ui.totop.js"></script>
-		<script src="js/touchTouch.jquery.js"></script>
-		<script src="js/owl.carousel.js"></script>
-		<script src="js/sForm.js"></script>
-		<script src="js/camera.js"></script>
-		<!--[if (gt IE 9)|!(IE)]><!-->
-		<script src="js/jquery.mobile.customized.min.js"></script>
-		<!--<![endif]-->
-		<script>
-		$(document).ready(function(){
-			jQuery('#camera_wrap').camera({
-				loader: false,
-				pagination: false ,
-				minHeight: '200',
-				thumbnails: false,
-				height: '42,0625%',
-				caption: true,
-				navigation: true,
-				fx: 'mosaic'
-			});
-			var owl = $("#owl");
-			owl.owlCarousel({
-				items : 7, //10 items above 1000px browser width
-				itemsDesktop : [995,5], //5 items between 1000px and 901px
-				itemsDesktopSmall : [767, 3], // betweem 900px and 601px
-				itemsTablet: [700, 3], //2 items between 600 and 0
-				itemsMobile : [479, 2], // itemsMobile disabled - inherit from itemsTablet option
-				navigation : true,
-			});
-			$().UItoTop({ easingType: 'easeOutQuart' });
-			$('#stuck_container').tmStickUp({});
-			$('.gallery a.gal_item').touchTouch();
-		});
-		</script>
-	</head>
-	<body class="page1" id="top">
-<!--==============================header=================================-->
-		<header>
-			<div id="stuck_container">
-				<div class="container">
-					<div class="row">
-						<div class="grid_12">
-								<a href="index.html">
-									<h1 class="logo">
-									Sarah Hamilton Photography
-									</h1>
-								</a>
-							<div class="menu_block">
-								<nav class="horizontal-nav full-width horizontalNav-notprocessed">
-									<ul class="sf-menu">
-										<li class="current"><a href="index.html">About</a></li>
-										<li><a href="portfolio.html">Portfolio</a></li>
-										<li><a href="resume.html">Resume</a></li>
-										<!-- <li><a href="pricing.html">Pricing</a></li> -->
-										<li><a href="contact.html">Contact</a></li>
-									</ul>
-								</nav>
-								<div class="clear"></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</header>
-		<div class="main">
-			<div class="slider_wrapper">
-				<div id="camera_wrap">
-					<div data-src="images/showcaseimages/showcaseNewborn.jpg">
-						<div class="caption fadeIn">
-							<div class="title"><a href="portfolio.html">Family<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div>
-					<div data-src="images/showcaseimages/showcaseCouple.jpg">
-						<div class="caption fadeIn">
-							<div class="title3"><a href="portfolio.html">Loved Ones<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div>
-					<div data-src="images/showcaseimages/RealEstateGallery.jpg">
-						<div class="caption fadeIn">
-							<div class="title2"><a href="portfolio.html">Real Estate<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div>
-					<div data-src="images/showcaseimages/showcaseWeddingParty.jpg">
-						<div class="caption fadeIn">
-							<div class="title"><a href="portfolio.html">Weddings<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div>
-					<!-- <div data-src="images/PartiesGallery.jpg">
-						<div class="caption fadeIn">
-							<div class="title"><a href="portfolio.html">Parties<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div> -->
-					<div data-src="images/showcaseimages/showcaseEngagement.jpg">
-						<div class="caption fadeIn">
-							<div class="title3"><a href="portfolio.html">Engagements<br>
-								<p class="subtitle">see more</p>
-							</a></div>
-						</div>
-					</div>
-				</div>
-			</div>
-<!--=====================Content======================-->
-			<section class="content">
-				<div class="container"><div class="ic"></div>
-					<div class="row">
-						<div class="grid_12">
-							<h2>Portfolio</h2>
-							<div class="gallery">
-								<div class="row">
-									<div class="grid_4">
-										<a href="images/thumbnails/party.jpg" class="gal_item">
-											<img src="images/thumbnails/party.jpg" alt="">
-											<div class="gal_caption">Parties</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-									<div class="grid_4">
-										<a href="images/thumbnails/family.jpg" class="gal_item">
-											<img src="images/thumbnails/family.jpg" alt="">
-											<div class="gal_caption">Family</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-									<div class="grid_4">
-										<a href="images/thumbnails/headshot.jpg" class="gal_item">
-											<img src="images/thumbnails/headshot.jpg" alt="">
-											<div class="gal_caption">Headshots</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-									<div class="grid_4">
-										<a href="images/thumbnails/child.jpg" class="gal_item">
-											<img src="images/thumbnails/child.jpg" alt="">
-											<div class="gal_caption">Children</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-									<div class="grid_4">
-										<a href="images/thumbnails/realestate.jpg" class="gal_item">
-											<img src="images/thumbnails/realestate.jpg" alt="">
-											<div class="gal_caption">Real Estate</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-									<div class="grid_4">
-										<a href="images/thumbnails/engagement.jpg" class="gal_item">
-											<img src="images/thumbnails/engagement.jpg" alt="">
-											<div class="gal_caption">Engagements</div>
-											<span class="gal_magnify"></span>
-										</a>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="clear"></div>
-						<div class="grid_4">
-							<h3 class="mb__0">Equipment</h3>
-							<div class="block2">
-								<div class="block2_title color1">Camera</div>
-									<ul class="list">
-									<li><a href="#">Lorem ipsum dolorertolo </a></li>
-									<li><a href="#">Git met consecteturert </a></li>
-									<li><a href="#">Odipiscing elit mollis erat</a></li>
-									<li><a href="#">Odipiscing elit mollis erat</a></li>
-								</ul>
-							</div>
-							<div class="block2">
-								<div class="block2_title color1">Editing</div>
-								<ul class="list">
-									<li><a href="#">Lorem ipsum dolorilomo </a></li>
-									<li><a href="#">Aconsectetur teroloter </a></li>
-									<li><a href="#">Sdipiscing elitmollis erat </a></li>
-									<li><a href="#">Sdipiscing elitmollis erat </a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="grid_4">
-							<h3>About me</h3>
-							<p>I'm a girl, from Earth. I have 2 daughters and a lanky husband. </p>
-							<p>Other words that describe me: Awesome, American</p>
-							<p>Flexitarian offal art party mustache tumblr. Fashion axe sriracha slow-carb, umami irony echo park single-origin coffee. Organic heirloom pinterest iPhone. Post-ironic truffaut tumblr VHS hella selfies, raw denim whatever gastropub sustainable banh mi DIY banjo. Ennui food truck tattooed humblebrag selvage keffiyeh, helvetica master cleanse lo-fi. Ramps four dollar toast pork belly plaid, YOLO whatever trust fund.</p><br>
-							<center>
-							<a href="#" class="btn bt__2">Read More</a>
-						</center>
-						</div>
-						<div class="grid_4">
-							<h3>Reviews</h3>
-							<ul class="list1">
-								<li>
-									<div class="list_count">1</div>
-									<div class="extra_wrapper">
-										<div class="list1_title color2"><a href="#">"Vice fashion axe drinking vinegar"</a></div>Affogato salvia pitchfork taxidermy craft beer.
-										<a href="#" class="color1 td_und">More</a>
-									</div>
-								</li>
-								<li>
-									<div class="list_count">2</div>
-									<div class="extra_wrapper">
-										<div class="list1_title color2"><a href="#">"Retro tousled portland" </a></div>Butcher farm-to-table dreamcatcher, ennui umami heirloom cray next level vegan actually food truck viral pork belly.
-										<a href="#" class="color1 td_und">More</a>
-									</div>
-								</li>
-								<li>
-									<div class="list_count">3</div>
-									<div class="extra_wrapper">
-										<div class="list1_title color2"><a href="#">"Cliche hella cold-pressed" </a></div>Taxidermy lo-fi bespoke, bitters listicle pickled leggings selvage cornhole trust fund.
-										<a href="#" class="color1 td_und">More</a>
-									</div>
-								</li>
-							</ul>
-						</div>
-						<div class="clear"></div>
-			</section>
-		</div>
-<!--==============================footer=================================-->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="grid_12">
-						<div class="footer_socials">
-							<a href="#" class="fa fa-twitter"></a>
-							<a href="#" class="fa fa-facebook"></a>
-							<a href="#" class="fa fa-google-plus"></a>
-							<a href="#" class="fa fa-pinterest"></a>
-						</div>
-						<div class="copy">
-							<span class="brand">Sarah Hamilton</span> &copy; <span id="copyright-year"></span>
-							<!-- | <a href="#">Privacy Policy</a> -->
-							<div class="sub_copy">
-								Website by <a href="http://www.mattsmobley.com/" rel="nofollow">Matt Mobley</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-	</body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Sarah Hamilton Photography</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" id="camera-css" href="css/camera.css" type="text/css" media="all">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/theme.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/skins/tango/skin.css" />
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="images/camera.ico">
+  <!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+
+<body>
+  <!--header-->
+  <div class="header">
+    <div class="wrap">
+      <div class="navbar navbar_ clearfix">
+        <div class="container">
+          <div class="row">
+            <div class="span4">
+              <div class="logo">
+                  <h1 class="topLogo1">Sarah Hamilton</h1>
+                  <h4 class="topLogo2"><img src="images/camera.ico" style="height: 1em; width: 1em; padding-left: 1em; padding-right: .2em;">Photography</h4>
+              </div>
+            </div>
+            <div class="span8">
+              <div class="follow_us">
+                <ul>
+                  <li><a href="#" class="facebook">Facebook</a></li>
+                  <li><a href="#" class="tumbrl">Tumbrl</a></li>
+                  <li><a href="#" class="twitter">Twitter</a></li>
+                </ul>
+              </div>
+              <div class="clear"></div>
+              <nav id="main_menu">
+                <div class="menu_wrap">
+                  <ul class="nav sf-menu">
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--//header-->
+
+  <!--page_container-->
+  <div class="page_container">
+    <!--slider-->
+    <div id="main_slider">
+      <div class="camera_wrap" id="camera_wrap_1">
+        <div data-src="images/showcaseimages/1.jpg"></div>
+        <div data-src="images/showcaseimages/2.jpg"></div>
+        <div data-src="images/showcaseimages/3.jpg"></div>
+      </div>
+      <!-- #camera_wrap_1 -->
+      <div class="clear"></div>
+    </div>
+    <!--//slider-->
+
+    <!--Welcome-->
+    <div class="wrap block">
+      <div class="container welcome_block">
+        <div class="welcome_line welcome_t"></div>
+        Welcome to Sarah Hamilton Photography
+        <span>family, weddings, lifestyle, and newborns </span>
+        <div class="welcome_line welcome_b"></div>
+      </div>
+    </div>
+    <!--//Welcome-->
+
+    <!--featured works-->
+    <div class="wrap block carousel_block">
+      <div class="container">
+        <h2 class="upper">recent work</h2>
+        <div class="row">
+          <div class="span12">
+            <ul id="mycarousel" class="jcarousel-skin-tango">
+              <li>
+                <div class="hover_img">
+                  <a href="images/family/3.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/family/3.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="hover_img">
+                  <a href="images/weddings/2.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/weddings/2.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="hover_img">
+                  <a href="images/lifestyle/1.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/lifestyle/1.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="hover_img">
+                  <a href="images/newborns/1.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/newborns/1.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="hover_img">
+                  <a href="images/lifestyle/4.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/lifestyle/4.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+              <li>
+                <div class="hover_img">
+                  <a href="images/weddings/1.jpg" rel="prettyPhoto[portfolio1]">
+                    <img src="images/weddings/1.jpg" alt="" />
+                    <span class="portfolio_zoom1"></span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--//featured works-->
+
+  </div>
+  <!--//page_container-->
+
+  <!--footer-->
+  <div id="footer">
+    <div class="footer_bottom">
+      <div class="wrap">
+        <div class="container">
+          <div class="row">
+            <div class="span5">
+              <div class="foot_logo">
+                  <h1 class="topLogo1">Sarah Hamilton</h1>
+                  <h4 class="topLogo2">Photography</h4>
+              </div>
+              <div class="copyright">&copy; 2016 Sarah Hamilton. Photography and Editing. All Rights Reserved.</div>
+            </div>
+            <div class="span7">
+              <div class="foot_right_block">
+                <div class="fright">
+                  <form action="#" method="post">
+                    <input class="inp_search" name="name" type="text" value="Search the Site" onfocus="if (this.value == 'Search the Site') this.value = '';" onblur="if (this.value == '') this.value = 'Search the Site';" />
+                  </form>
+                </div>
+                <div class="follow_us">
+                  <ul>
+                    <li><a rel="tooltip" href="#" title="Facebook" class="facebook">Facebook</a></li>
+                    <li><a rel="tooltip" href="#" title="Twitter" class="twitter">Twitter</a></li>
+                    <li><a rel="tooltip" href="#" title="Tumbrl" class="tumbrl">Tumbrl</a></li>
+                  </ul>
+                </div>
+                <div class="clear"></div>
+
+                <div class="clear"></div>
+                <div class="foot_menu">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--//footer-->
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+  <script type="text/javascript" src="js/jquery.mobile.customized.min.js"></script>
+  <script type="text/javascript" src="js/camera.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/superfish.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
+  <script type="text/javascript" src="js/jquery.jcarousel.js"></script>
+  <script type="text/javascript" src="js/jquery.tweet.js"></script>
+  <script type="text/javascript" src="js/myscript.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      //Slider
+      $('#camera_wrap_1').camera();
+
+      //Featured works & latest posts
+      $('#mycarousel, #mycarousel2, #newscarousel').jcarousel();
+    });
+  </script>
+</body>
+
 </html>

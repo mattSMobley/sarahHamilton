@@ -4,7 +4,7 @@
 ;(function($){$.fn.camera = function(opts, callback) {
 
 	var defaults = {
-		alignment			: 'topCenter', //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
+		alignment			: 'center', //topLeft, topCenter, topRight, centerLeft, center, centerRight, bottomLeft, bottomCenter, bottomRight
 
 		autoAdvance			: true,	//true, false
 
@@ -27,13 +27,13 @@
 
 		gridDifference		: 250,	//to make the grid blocks slower than the slices, this value must be smaller than transPeriod
 
-		height				: 'auto',	//here you can type pixels (for instance '300px'), a percentage (relative to the width of the slideshow, for instance '50%') or 'auto'
+		height				: '45%',	//here you can type pixels (for instance '300px'), a percentage (relative to the width of the slideshow, for instance '50%') or 'auto'
 
 		imagePath			: 'images/',	//he path to the image folder (it serves for the blank.gif, when you want to display videos)
 
-		hover				: true,	//true, false. Puase on state hover. Not available for mobile devices
+		hover				: false,	//true, false. Puase on state hover. Not available for mobile devices
 
-		loader				: 'pie',	//pie, bar, none (even if you choose "pie", old browsers like IE8- can't display it... they will display always a loading bar)
+		loader				: 'none',	//pie, bar, none (even if you choose "pie", old browsers like IE8- can't display it... they will display always a loading bar)
 
 		loaderColor			: '#eeeeee',
 
@@ -45,11 +45,11 @@
 
 		loaderStroke		: 7,	//the thickness both of the pie loader and of the bar loader. Remember: for the pie, the loader thickness must be less than a half of the pie diameter
 
-		minHeight			: '000',	//you can also leave it blank
+		minHeight			: '200px',	//you can also leave it blank
 
 		navigation			: true,	//true or false, to display or not the navigation buttons
 
-		navigationHover		: true,	//if true the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if false they will be visible always
+		navigationHover		: false,	//if true the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if false they will be visible always
 
 		mobileNavHover		: true,	//same as above, but only for mobile devices
 
@@ -57,7 +57,7 @@
 
 		overlayer			: true,	//a layer on the images to prevent the users grab them simply by clicking the right button of their mouse (.camera_overlayer)
 
-		pagination			: true,
+		pagination			: false,
 
 		playPause			: true,	//true or false, to display or not the play/pause buttons
 
@@ -65,7 +65,7 @@
 
 		pieDiameter			: 38,
 
-		piePosition			: 'center',	//'rightTop', 'leftTop', 'leftBottom', 'rightBottom'
+		piePosition			: 'rightTop',	//'rightTop', 'leftTop', 'leftBottom', 'rightBottom'
 
 		portrait			: false, //true, false. Select true if you don't want that your images are cropped
 
@@ -79,9 +79,9 @@
 
 		thumbnails			: false,
 
-		time				: 7000,	//milliseconds between the end of the sliding effect and the start of the nex one
+		time				: 4000,	//milliseconds between the end of the sliding effect and the start of the nex one
 
-		transPeriod			: 1000,	//lenght of the sliding effect in milliseconds
+		transPeriod			: 1500,	//lenght of the sliding effect in milliseconds
 
 ////////callbacks
 
@@ -715,7 +715,33 @@
 			}
 		}
 
-
+		if(navHover==true){
+			$(prevNav,wrap).animate({opacity:0},0);
+			$(nextNav,wrap).animate({opacity:0},0);
+			$(commands,wrap).animate({opacity:0},0);
+			if(isMobile()){
+				fakeHover.live('vmouseover',function(){
+					$(prevNav,wrap).animate({opacity:1},200);
+					$(nextNav,wrap).animate({opacity:1},200);
+					$(commands,wrap).animate({opacity:1},200);
+				});
+				fakeHover.live('vmouseout',function(){
+					$(prevNav,wrap).delay(500).animate({opacity:0},200);
+					$(nextNav,wrap).delay(500).animate({opacity:0},200);
+					$(commands,wrap).delay(500).animate({opacity:0},200);
+				});
+			} else {
+				fakeHover.hover(function(){
+					$(prevNav,wrap).animate({opacity:1},200);
+					$(nextNav,wrap).animate({opacity:1},200);
+					$(commands,wrap).animate({opacity:1},200);
+				},function(){
+					$(prevNav,wrap).animate({opacity:0},200);
+					$(nextNav,wrap).animate({opacity:0},200);
+					$(commands,wrap).animate({opacity:0},200);
+				});
+			}
+		}
 
 
 		$('.camera_stop',camera_thumbs_wrap).live('click',function(){
