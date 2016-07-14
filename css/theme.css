@@ -24,6 +24,13 @@ body { overflow-x:hidden;
 	font-style: normal;
 	text-decoration: none;
 }
+.topLogo1 a{
+	text-decoration: none;
+	color: black;
+}
+.topLogo1 a:hover {
+	color: #D00B01;
+}
 .topLogo2 {
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
@@ -33,6 +40,24 @@ body { overflow-x:hidden;
 	font-weight: 700;
 	text-transform: uppercase;
 	text-decoration: none;
+}
+.topLogo2 img {
+	height: 1em;
+	width: 1em;
+	padding-left: 1em;
+	padding-right: .2em;
+}
+#submit {
+	border-radius: 5%;
+	color: white;
+	background-color: #586F7C;
+	font-family: 'Gill Sans';
+	font-size: 1.2em;
+	font-weight: 200;
+}
+
+#submit:hover {
+	background-color: #D00B01;
 }
 .fleft {float:left;
 }

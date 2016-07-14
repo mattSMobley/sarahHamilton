@@ -1,15 +1,12 @@
-$(document).ready(function(){	
-	//build dropdown
+$(document).ready(function(){
 	$("<select />").appendTo("nav#main_menu div");
-	
-	// Create default option "Go to..."
+
 	$("<option />", {
 	   "selected": "selected",
 	   "value"   : "",
 	   "text"    : "Please choose page"
-	}).appendTo("nav#main_menu select");	
-	
-	// Populate dropdowns with the first menu items
+	}).appendTo("nav#main_menu select");
+
 	$("nav#main_menu li a").each(function() {
 	 	var el = $(this);
 	 	$("<option />", {
@@ -17,13 +14,11 @@ $(document).ready(function(){
 	    	"text"    : el.text()
 	 	}).appendTo("nav#main_menu select");
 	});
-	
-	//make responsive dropdown menu actually work			
+
   	$("nav#main_menu select").change(function() {
     	window.location = $(this).find("option:selected").val();
   	});
-	
-	//Iframe transparent
+
 	$("iframe").each(function(){
 		var ifr_source = $(this).attr('src');
 		var wmode = "wmode=transparent";
@@ -35,7 +30,7 @@ $(document).ready(function(){
 		}
 		else $(this).attr('src',ifr_source+'?'+wmode);
 	});
-			
+
 	//Twitter Setup
 	$(".tweet_block").tweet({
 	  join_text: "auto",
@@ -48,8 +43,8 @@ $(document).ready(function(){
 	  auto_join_text_reply: "",
 	  auto_join_text_url: "",
 	  loading_text: "loading tweets..."
-	});	
-	
+	});
+
 	//Flickr Integration
     $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?id=36334875@N04&lang=en-us&format=json&jsoncallback=?", function(data){
 		$.each(data.items, function(i,item){
@@ -57,15 +52,13 @@ $(document).ready(function(){
 				$("<img/>").attr("src", item.media.m.replace('_m', '_s')).appendTo(".FlickrImages ul")
 				.wrap("<li><a href='" + item.link + "' target='_blank' title='Flickr'></a></li>");
 			}
-		});			
-    });	
-	
-	//Tooltip
+		});
+    });
+
 	$('.follow_us a').tooltip();
-	
-	//PrettyPhoto
+
 	$("a[rel^='prettyPhoto']").prettyPhoto();
-	
+
 	//Image hover
 	$(".hover_img").live('mouseover',function(){
 			var info=$(this).find("img");
@@ -79,7 +72,7 @@ $(document).ready(function(){
 			$(".preloader").css({'background':'none'});
 		}
 	);
-	
-	
-							
-});	
+
+
+
+});
