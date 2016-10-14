@@ -590,6 +590,19 @@ ul.tweets li {
 	color:#586F7C;
 	font-style:italic;
 }
+.pricing-container {
+	height: 60vh;
+}
+.pricing-container p {
+		padding-top: 5em;
+	font-size: 3em;
+	text-align: center;
+	font-weight: 200;
+}
+.pricing-container h4 {
+	text-align: center;
+	font-weight: 200;
+}
 .testimonials_arrow {
 	width:22px;
 	height:22px;
