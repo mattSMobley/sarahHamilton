@@ -1086,4 +1086,7 @@ ul.recent_post div a:hover {color:#586F7C;
 		position: absolute;
 		margin: -60px 10px 10px 10px;
 		}
+		.pricing-half-size-image {
+			width: 49%;
+		}
 	}
