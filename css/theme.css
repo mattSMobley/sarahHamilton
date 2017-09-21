@@ -1089,10 +1089,17 @@ ul.recent_post div a:hover {color:#586F7C;
 		.pricing-half-size-image {
 			width: 40%;
 		}
+		.pricing-image-container-padding {
+			margin-top: 5em;
+		}
 		.fright {
 			padding: 0%;
+			position: relative;
+			float: right;
 		}
 		.fleft {
 			padding: 0%;
+			position: relative;
+			float: left;
 		}
 	}
