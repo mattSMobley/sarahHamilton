@@ -1086,25 +1086,20 @@ ul.recent_post div a:hover {color:#586F7C;
 		position: absolute;
 		margin: -60px 10px 10px 10px;
 		}
-		.pricing-full-size-image {
-			width: 100%;
-		}
 		.pricing-half-size-image {
 			width: 40%;
-			display: block;
+			display: inline-block;
 		}
 
 		.pricing-image-container-padding {
-			margin-top: 5em;
+			margin-top: 2em;
 		}
 		.fright {
 			padding: 0%;
-			position: relative;
 			float: right;
 		}
 		.fleft {
 			padding: 0%;
-			position: relative;
 			float: left;
 		}
 	}
