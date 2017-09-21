@@ -575,17 +575,54 @@ ul.tweets li {
 	font-style:italic;
 }
 .pricing-container {
-	height: 60vh;
+	height: 100%;
+	padding-top: 1em;
 }
 .pricing-container p {
-		padding-top: 5em;
 	font-size: 3em;
 	text-align: center;
 	font-weight: 200;
+	padding: .2em;
+}
+.pricing-image-container-padding {
+	margin-top: 20em;
 }
 .pricing-container h4 {
 	text-align: center;
 	font-weight: 200;
+}
+.pricing-container h6 {
+	font-size: .8em;
+	font-style: italic;
+	font-weight: 200;
+}
+.pricing-container h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'Open Sans';
+}
+.pricing-container hr {
+	width: 60%;
+	margin: 1em;
+	color: black;
+}
+.pricing-full-size-image {
+	width: 80%;
+}
+.pricing-half-size-image {
+	width: 49%;
+}
+
+.fleft {
+	padding: 1% 1% 0% 0%;
+}
+.fright {
+	padding: 1% 0% 0% 1%;
+
+}
+.pricing-image-container .span {
+	display: inline;
 }
 .testimonials_arrow {
 	width:22px;
