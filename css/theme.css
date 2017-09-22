@@ -586,25 +586,36 @@ ul.tweets li {
 }
 .pricing-image-container-padding {
 	margin-top: 20em;
+
 }
 .pricing-container h4 {
 	text-align: center;
 	font-weight: 200;
+	padding-left: 7em;
+	padding-right: 7em;
 }
 .pricing-container h6 {
 	font-size: .8em;
 	font-style: italic;
 	font-weight: 200;
+	padding-left: 7em;
+	padding-right: 7em;
 }
 .pricing-container h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	font-family: 'Open Sans';
+}
+.pricing-container h5 {
+	padding-left: 14em;
+	padding-right: 14em;
+	font-style: normal;
+	font-weight: 200;
 }
 .pricing-container hr {
 	width: 60%;
-	margin: 1em;
+	margin: 2em;
 	color: black;
 }
 .pricing-full-size-image {
@@ -1093,6 +1104,8 @@ ul.recent_post div a:hover {color:#586F7C;
 
 		.pricing-image-container-padding {
 			margin-top: 1em;
+			padding-left: .5em;
+			padding-right: .5em;
 		}
 		.fright {
 			float: right;
