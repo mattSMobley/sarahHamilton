@@ -1113,11 +1113,18 @@ ul.recent_post div a:hover {color:#586F7C;
 			font-style: normal;
 			font-weight: 200;
 		}
+		.pricing-container h1 {
+			padding-left: 1em;
+			padding-right: 1em;
+		}
 		.pricing-container h4 {
 			text-align: center;
 			font-weight: 200;
 			padding-left: 1em;
 			padding-right: 1em;
+		}
+		.pricing-container hr {
+			margin: 1em;
 		}
 		.fright {
 			float: right;
