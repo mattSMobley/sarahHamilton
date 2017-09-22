@@ -1107,6 +1107,18 @@ ul.recent_post div a:hover {color:#586F7C;
 			padding-left: .5em;
 			padding-right: .5em;
 		}
+		.pricing-container h5 {
+			padding-left: 1em;
+			padding-right: 1em;
+			font-style: normal;
+			font-weight: 200;
+		}
+		.pricing-container h4 {
+			text-align: center;
+			font-weight: 200;
+			padding-left: 1em;
+			padding-right: 1em;
+		}
 		.fright {
 			float: right;
 		}
