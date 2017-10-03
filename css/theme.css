@@ -247,7 +247,7 @@ img {
   border-top:0;
 }
 .page_container {
-	padding-bottom:40px;
+	/*padding-bottom:40px;*/
 	background:#FFF;
 }
 .separator {
@@ -401,7 +401,69 @@ h2.upper {
 }
 .hover_img:hover .portfolio_zoom1 { display:block;
 }
+.wrap-block {
+	padding-bottom: 100em;
+}
+#frontage img{
+	clear: both;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	height: 200;
+	width: 400;
 
+}
+
+#photos {
+   /* Prevent vertical gaps */
+   line-height: 0;
+
+   -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
+}
+
+#photos img {
+  /* Just in case there are inline attributes */
+  width: 100% !important;
+  height: auto !important;
+}
+
+@media (max-width: 1200px) {
+  #photos {
+  -moz-column-count:    4;
+  -webkit-column-count: 4;
+  column-count:         4;
+  }
+}
+@media (max-width: 1000px) {
+  #photos {
+  -moz-column-count:    3;
+  -webkit-column-count: 3;
+  column-count:         3;
+  }
+}
+@media (max-width: 800px) {
+  #photos {
+  -moz-column-count:    2;
+  -webkit-column-count: 2;
+  column-count:         2;
+  }
+}
+@media (max-width: 400px) {
+  #photos {
+  -moz-column-count:    1;
+  -webkit-column-count: 1;
+  column-count:         1;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .post_carousel {
 	padding-bottom:12px;
