@@ -82,6 +82,7 @@
     <!--//Welcome//-->
     <!-- <section id="photos"></section> -->
     <center>
+      
       <img src="images/newstuff/11.jpg" class="photo-buffer">
       <img src="images/newstuff/12.jpg" class="photo-buffer">
       <img src="images/newstuff/3.jpg" class="photo-buffer">
@@ -229,6 +230,32 @@
   <script type="text/javascript">
     $(document).ready(function() {
       //Slider
+      function preload(arrayOfImages) {
+        $(arrayOfImages).each(function() {
+          $('<img/>')[0].src = this;
+          // Alternatively you could use:
+          // (new Image()).src = this;
+        });
+      }
+
+      // Usage:
+
+      preload([
+        'images/newstuff/13.jpg',
+        'images/newstuff/14.jpg',
+        'images/newstuff/15.jpg',
+        'images/newstuff/16.jpg',
+        'images/newstuff/17.jpg',
+        'images/newstuff/18.jpg',
+        'images/newstuff/19.jpg',
+        'images/newstuff/29.jpg',
+        'images/newstuff/38.jpg',
+        'images/newstuff/20.jpg',
+        'images/newstuff/21.jpg',
+        'images/newstuff/22.jpg',
+        'images/newstuff/23.jpg',
+        'images/newstuff/24.jpg',
+      ]);
       //   $('#camera_wrap_1').camera();
       //
       //   //Featured works & latest posts
