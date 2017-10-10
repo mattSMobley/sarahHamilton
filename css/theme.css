@@ -410,8 +410,19 @@ h2.upper {
 	margin: 0px 0px 0px 0px;
 	height: 200;
 	width: 400;
-
 }
+
+.photo-buffer {
+	padding: 1%;
+	height: 20em;
+	width: 32em;
+}
+.portrait-photo-buffer {
+		padding: 1%;
+		height: 44em;
+		width: 32em;
+}
+
 
 #photos {
    /* Prevent vertical gaps */
