@@ -1165,6 +1165,14 @@ ul.recent_post div a:hover {color:#586F7C;
 		#footer .copyright {
 			text-align: center;
 		}
+		.portrait-photo-buffer {
+			width: 16em;
+			height: 24em;
+		}
+		.photo-buffer {
+			width: 16em;
+			height: 10em
+		}
 	}
 @media only screen and (max-width: 500px){
 	#footer .follow_us ul{
@@ -1175,7 +1183,14 @@ ul.recent_post div a:hover {color:#586F7C;
 			width: 48%;
 			display: inline-block;
 		}
-
+		.photo-buffer {
+			width: 8em;
+			height: 5em
+		}
+		.portrait-photo-buffer {
+			width: 8em;
+			height: 12em;
+		}
 		.pricing-image-container-padding {
 			margin-top: 1em;
 			padding-left: .5em;
