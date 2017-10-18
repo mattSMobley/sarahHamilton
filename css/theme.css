@@ -1166,12 +1166,12 @@ ul.recent_post div a:hover {color:#586F7C;
 			text-align: center;
 		}
 		.portrait-photo-buffer {
-			width: 16em;
-			height: 24em;
+			width: 12em;
+			height: 20em;
 		}
 		.photo-buffer {
-			width: 16em;
-			height: 10em
+			width: 12em;
+			height: 8em
 		}
 	}
 @media only screen and (max-width: 500px){
@@ -1184,12 +1184,12 @@ ul.recent_post div a:hover {color:#586F7C;
 			display: inline-block;
 		}
 		.photo-buffer {
-			width: 8em;
-			height: 5em
+			width: 10em;
+			height: 6em
 		}
 		.portrait-photo-buffer {
-			width: 8em;
-			height: 12em;
+			width: 10em;
+			height: 15em;
 		}
 		.pricing-image-container-padding {
 			margin-top: 1em;
@@ -1222,3 +1222,14 @@ ul.recent_post div a:hover {color:#586F7C;
 			float: left;
 		}
 	}
+
+	@media only screen and (max-width: 500px){
+			.photo-buffer {
+				width: 8em;
+				height: 5em
+			}
+			.portrait-photo-buffer {
+				width: 8em;
+				height: 12em;
+			}
+		}
